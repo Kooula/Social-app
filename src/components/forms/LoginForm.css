@@ -1,0 +1,85 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #343b42;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 330px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #262626;
+  }
+  
+  .form-control-login {
+    margin-bottom: 15px;
+  }
+  
+  .form-control-login label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .form-control-login input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #333;
+  }
+  
+  .form-control-login input:focus {
+    outline: none;
+    border-color: #1da1f2;
+  }
+  
+  .login-button {
+    width: 85%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .login-button:hover {
+    background-color: #c1c4c4;
+  }
+
+  .additional-links {
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .additional-links span {
+    color: #1da1f2; /* Twitter's primary color */
+    text-decoration: underline;
+    margin: 0 5px;
+    font-size: 13px;
+  }
+  
+  .additional-links a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,18 @@
+.toast-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .toast-message.visible {
+    opacity: 1;
+  }
+  
+  .toast-message.hidden {
+    opacity: 0;
+  }

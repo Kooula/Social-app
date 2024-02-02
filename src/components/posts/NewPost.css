@@ -1,0 +1,102 @@
+.newPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 16px 0 16px;
+  border-top: 1px solid rgb(47, 51, 54);
+  border-left: 1px solid rgb(47, 51, 54); /* Border on the left */
+  border-right: 1px solid rgb(47, 51, 54); /* Border on the right */
+  background-color: black;
+}
+
+.newPostForm {
+  width: 100%;
+}
+
+.newPostUser h3{
+  color: white;
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.newPostInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.newPostInput input,
+.newPostTextarea textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.newPostTextarea textarea {
+  resize: vertical;
+  min-height: 100px;;
+}
+
+.newPostTextarea textarea:focus{
+  border-color: #1da1f2;
+}
+
+.newPostInput input {
+  text-align: center;
+}
+
+
+.newPostInput button {
+  background-color: #1da1f2;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.newPostInput button:hover {
+  background-color: #0e7ac4;
+}
+
+.myModalStyle {
+  width: 500px;
+  height: 290px;
+  border: none;
+}
+
+
+.postButton {
+  background-color: #1da1f2; 
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 15px 35px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.postButton:hover {
+  background-color: #1779c0;
+}
+
+.postButton.disabled {
+  background-color: #135cca57;
+  color: rgba(255, 255, 255, 0.397);
+}
+

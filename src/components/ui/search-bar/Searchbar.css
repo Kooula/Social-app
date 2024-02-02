@@ -1,0 +1,119 @@
+.search {
+    display: flex;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    padding-top: 5px;
+    background-color: black;
+}
+
+.modal-search {
+  height: 15vh;
+  padding: 10px;
+  width: 45vh;
+}
+
+.search input {
+    background-color: #212327;
+    border-radius: 9999px;
+    height: 45px;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 20px;
+    font-weight: 400;
+    width: 450px;
+    border: none;
+}
+
+
+.search-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    border-top: none;
+    box-shadow: 0 0 10px rgba(207, 207, 207, 0.7);
+    z-index: 100;
+  }
+  
+  .search-result {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .closeButton {
+    position: absolute;
+    right: 15px; 
+    cursor: pointer;
+    background: none;
+    font-size: 24px;
+    color: #657786;
+    border: none;
+    margin-top: 10px;
+  }
+ 
+  
+  .modal-search input {
+    background-color: #212327;
+    border-radius: 9999px;
+    border: none;
+    padding-left: 20px; 
+    font-size: 1.5rem;
+    color: white;
+    width: 100%;  
+    margin-top: 30px;
+  }
+
+  .modal-search .search-dropdown {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(207, 207, 207, 0.7);
+    z-index: 100;
+    overflow-y: auto;
+    max-height: calc(40vh - 65px);
+  }
+  
+  .modal-search .search-result {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid #444;
+  }
+  
+  .modal-search .search-result:last-child {
+    border-bottom: none;
+  }
+  
+  .modal-search .closeButton {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #657786;
+    background: none;
+    border: none;
+    bottom: 60px;
+  }
+  
+  .modal-search .search-dropdown::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  .modal-search .search-dropdown::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+  }
+  
+  .modal-search .search-dropdown::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
